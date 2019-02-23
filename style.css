@@ -1,9 +1,15 @@
 body{
     margin 0;
-    font-family: "tahoma ms";
+    font-family: tahoma;
     color: #666;
 }
-
+h1, h2{
+    margin: 0;
+    font-size: 20px;
+    color: #333;
+}
+.left {float: left}
+.right{ float: right}
 
 #total{
     width: 1000px;
@@ -11,15 +17,55 @@ body{
 }
 #logo{
     text-align: center;
+    margin: 30px 0;
 }
 #menu{
     text-align: center;
     background-color: #222;
     height: 40px;
-    line-height: 40px;
+    
 }
 #menu a{
     color: #fff;
     text-decoration: none;
-    margin-right: 100px;
+    line-height: 40px;
+    margin: 0 35px;
 }
+
+#menu a:hover{
+    color: white;
+    text-decoration: underline;
+    
+}
+#banner img{
+   width: 100%; 
+}
+#banner {
+    margin: 2px 0px;
+    padding-bottom: 30px;
+}
+#texto-principal{
+    width: 60%;
+    color: #666;
+}
+#texto-secundario{
+    width: 35%;
+}
+#texto-secundario p{
+    font-style: italic;
+    color: #999;
+}
+
+#texto-principal, #texto-secundario{
+    font-size: 16px;
+    
+}
+#direitos{
+    text-align: center;
+    clear: both;
+    width: 1000px;
+    font-size: 12px;
+    padding: 30px 0;
+    color: #999;
+}
+
